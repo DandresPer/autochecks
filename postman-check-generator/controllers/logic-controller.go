@@ -4,7 +4,7 @@ import (
 	
     "encoding/json"
 )
-
+//Autocheck asasd
 func Autocheck(jsonFile []byte) {
 
 	var j map[string]interface{}
