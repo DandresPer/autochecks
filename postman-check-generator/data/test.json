@@ -1,0 +1,255 @@
+{
+    "_links": {
+        "self": {
+            "href": "/gw-api/v2/basket/WLMAUCKU0HFY96ER"
+        },
+        "voucher": {
+            "href": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/voucher"
+        },
+        "payment_methods": {
+            "href": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods"
+        },
+        "delivery_terms_and_conditions": {
+            "href": "gw-api/v1/terms-and-conditions"
+        },
+        "return_policy": {
+            "href": "/gw-api/v1/return-policy"
+        }
+    },
+    "basket_id": "WLMAUCKU0HFY96ER",
+    "currency": "JPY",
+    "shipping_total": 0,
+    "total_count_of_items": 1,
+    "total_price": 14300,
+    "selected_shipping_type": {
+        "type": "home_delivery",
+        "display_text": "指定住所で受け取る"
+    },
+    "available_shipping_types": [
+        {
+            "type": "home_delivery",
+            "display_text": "指定住所で受け取る"
+        },
+        {
+            "type": "pick_up",
+            "display_text": "adidas直営店で受け取る（送料無料）"
+        }
+    ],
+    "selected_carrier_service": {
+        "is_default": true,
+        "shipping_method_id": "1",
+        "shipping_method_name": "注文者住所に発送",
+        "shipping_price": 0,
+        "shipping_time": "",
+        "display_text": "",
+        "location_type": "home"
+    },
+    "available_carrier_services": [
+        {
+            "is_default": true,
+            "shipping_method_id": "1",
+            "shipping_method_name": "注文者住所に発送",
+            "shipping_price": 0,
+            "shipping_time": "",
+            "display_text": "",
+            "location_type": "home"
+        }
+    ],
+    "selected_payment_method": {
+        "delete_url": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods/CREDIT_CARD",
+        "id": "CREDIT_CARD",
+        "name": "クレジットカード"
+    },
+    "selected_payment_methods": [],
+    "available_payment_methods": [
+        {
+            "delete_url": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods/CASH_ON_DELIVERY",
+            "id": "CASH_ON_DELIVERY",
+            "name": "代金引換"
+        },
+        {
+            "delete_url": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods/NP_PAYMENT",
+            "id": "NP_PAYMENT",
+            "name": "NP後払い"
+        },
+        {
+            "delete_url": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods/GOOGLE_PAY",
+            "id": "GOOGLE_PAY",
+            "name": "グーグルペイ"
+        },
+        {
+            "delete_url": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods/CREDIT_CARD",
+            "id": "CREDIT_CARD",
+            "name": "クレジットカード"
+        },
+        {
+            "delete_url": "/gw-api/v2/basket/WLMAUCKU0HFY96ER/payment_methods/APPLE_PAY",
+            "id": "APPLE_PAY",
+            "name": "アップルペイ"
+        }
+    ],
+    "selected_vouchers": [],
+    "available_vouchers": [],
+    "available_gift_wrapping_options": [
+        {
+            "id": 0,
+            "name": "ギフトラッピングしない",
+            "price": 0
+        },
+        {
+            "id": 1,
+            "name": "ラッピング（黒）￥330(税込)",
+            "price": 330
+        },
+        {
+            "id": 2,
+            "name": "ラッピング（青）￥330(税込)",
+            "price": 330
+        },
+        {
+            "id": 3,
+            "name": "資材を同梱（黒）￥330(税込)",
+            "price": 330
+        },
+        {
+            "id": 4,
+            "name": "資材を同梱（青）￥330(税込)",
+            "price": 330
+        }
+    ],
+    "selected_gift_wrapping_option": {
+        "id": 0,
+        "name": "ギフトラッピングしない",
+        "price": 0
+    },
+    "available_delivery_time_options": {
+        "date_options": [
+            {
+                "id": "",
+                "name": "指定なし"
+            },
+            {
+                "id": "2020-03-20",
+                "name": "2020/03/20"
+            },
+            {
+                "id": "2020-03-21",
+                "name": "2020/03/21"
+            },
+            {
+                "id": "2020-03-22",
+                "name": "2020/03/22"
+            },
+            {
+                "id": "2020-03-23",
+                "name": "2020/03/23"
+            },
+            {
+                "id": "2020-03-24",
+                "name": "2020/03/24"
+            },
+            {
+                "id": "2020-03-25",
+                "name": "2020/03/25"
+            },
+            {
+                "id": "2020-03-26",
+                "name": "2020/03/26"
+            }
+        ],
+        "time_options": [
+            {
+                "id": "0000-0000",
+                "name": "指定なし"
+            },
+            {
+                "id": "0800-1200",
+                "name": "午前中"
+            },
+            {
+                "id": "1400-1600",
+                "name": "14:00-16:00"
+            },
+            {
+                "id": "1600-1800",
+                "name": "16:00-18:00"
+            },
+            {
+                "id": "1800-2000",
+                "name": "18:00-20:00"
+            },
+            {
+                "id": "1900-2100",
+                "name": "19:00-21:00"
+            }
+        ]
+    },
+    "selected_delivery_time": {
+        "date": {
+            "id": "",
+            "name": "指定なし"
+        },
+        "time": {
+            "id": "0000-0000",
+            "name": "指定なし"
+        }
+    },
+    "total_view": [
+        {
+            "title": "1x OZWEEGO - 250",
+            "value": 14300,
+            "type": "line",
+            "display_value": "￥14,300"
+        },
+        {
+            "title": "送料(税込)",
+            "value": 0,
+            "type": "line",
+            "display_value": "￥0"
+        },
+        {
+            "title": "クーポンおよび割引",
+            "value": 0,
+            "type": "line",
+            "display_value": "￥0"
+        },
+        {
+            "title": "合計金額(税込)",
+            "value": 14300,
+            "type": "total",
+            "display_value": "￥14,300"
+        }
+    ],
+    "items": [
+        {
+            "_links": {
+                "products": {
+                    "href": "/gw-api/v2/products?product_id=EE5696"
+                },
+                "product": {
+                    "href": "/gw-api/v2/products/EE5696"
+                },
+                "thumbnail": {
+                    "href": "https://shop.adidas.jp/photo/EE/EE5696/s-EE5696-61.jpg"
+                },
+                "variations": {
+                    "href": "/gw-api/v2/products/EE5696/variations"
+                }
+            },
+            "product_id": "EE5696",
+            "product_name": "OZWEEGO",
+            "variation_product_id": "EE5696_590",
+            "quantity": 1,
+            "total_current_price": 14300,
+            "total_original_price": 14300,
+            "current_price": 14300,
+            "original_price": 14300,
+            "bonus_product": false,
+            "size": "250"
+        }
+    ],
+    "terms_and_conditions_body": "ご注文を確定いただくことで、利用規約に同意いただいたものとみなさせていただきます。",
+    "terms_and_conditions_link": "https://adidasapp.adidas.com/legal/en-GB/terms.html",
+    "terms_and_conditions_link_name": "adidasアプリ利用規約",
+    "secret_sale_token": ""
+}
