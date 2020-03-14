@@ -5,7 +5,7 @@ import (
     "encoding/json"
 )
 
-func autocheck(jsonFile []byte) {
+func Autocheck(jsonFile []byte) {
 
 	var j map[string]interface{}
     err := json.Unmarshal(jsonFile, &j)

@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/Nuper/DerezWP/go-simple-server/controllers"
+	"github.com/Nuper/autochecks/postman-check-generator/controllers"
 )
 
 func main() {
 
-	controllers.FindItemsByName("Cold Penetration Support")
+	controllers.Autocheck("Cold Penetration Support")
 
 }
