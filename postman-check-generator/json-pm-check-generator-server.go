@@ -6,6 +6,6 @@ import (
 
 func main() {
 
-	controllers.Autocheck("Cold Penetration Support")
+	controllers.Autocheck();
 
 }
